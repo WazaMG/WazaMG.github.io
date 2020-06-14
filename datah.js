@@ -1,7 +1,7 @@
 const data = {
 "type":[
         {
-            "image":"Images/hotel/1.png",
+            "image":"Images/hotel/a.png",
             "name":"Hôtel Mercure Paris",
             "numero":"03 59 57 47 00",
             "adresse":"27 Rue des Tours,Paris",
@@ -36,7 +36,7 @@ const data = {
                 ]
         },
         {
-            "image":"Images/hotel/2.png",
+            "image":"Images/hotel/b.png",
             "name":"Hôtel Novotel Paris Aéroport",
             "numero":"03 20 62 53 53",
             "adresse":"55 Route de Douai, Paris",
@@ -71,7 +71,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/3.png",
+            "image":"Images/hotel/c.png",
             "name":"Holiday inn Paris Opéra grands-boulevards",
             "numero":"01 47 70 25 55",
             "adresse":"30-32 Boulevard Poissonnière, 75009 Paris",
@@ -106,7 +106,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/4.png",
+            "image":"Images/hotel/d.png",
             "name":"Hôtel Novotel Paris Centre",
             "numero":"03 87 37 38 39",
             "adresse":"Place des Paraiges, Paris",
@@ -141,7 +141,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/5.png",
+            "image":"Images/hotel/e.png",
             "name":"Holiday Inn Paris - Gare De Lyon Bastille",
             "numero":"01 53 02 20 00",
             "adresse":"11 Rue de Lyon, 75012 Paris",
@@ -176,7 +176,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/6.png",
+            "image":"Images/hotel/f.png",
             "name":"Holiday Inn Paris - St. Germain Des Près",
             "numero":"01 49 54 87 00",
             "adresse":"92 Rue de Vaugirard, 75006 Paris",
@@ -211,7 +211,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/7.png",
+            "image":"Images/hotel/g.png",
             "name":"Hôtel Novotel Paris Centre Gare Montparnasse",
             "numero":"01 53 91 23 75",
             "adresse":"17 Rue du Cotentin, 75015 Paris",
@@ -246,7 +246,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/8.png",
+            "image":"Images/hotel/h.png",
             "name":"Mercure Paris Opéra Garnier Hotel & Spa",
             "numero":"01 43 87 30 55",
             "adresse":"4 Rue de l'Isly, 75008 Paris",
@@ -281,7 +281,7 @@ const data = {
             ]
         },
         {
-            "image":"Images/hotel/9.png",
+            "image":"Images/hotel/i.png",
             "name":"Hôtel Mercure Paris Arc de Triomphe Étoile",
             "numero":"08 25 80 19 19",
             "adresse":"27 Avenue des Ternes, 75017 Paris",
