@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.image_icon{
+  border-collapse: separate;
+  border-radius: 20%;
+  width: 80px;
+  margin-top: 10px;
+}
+.grow-shadow {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.grow-shadow:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.247);
+}
+nav {
+  font-size: 1.5vw;
+  z-index: 2;
+}
+.navbar {
+  height: 70px;
+}
+
+.logo {
+  height: 4vw;
+  width: 4vw;
+  margin-left: 20px;
+  margin-top: 4px;
+  height: 60px;
+  width: 60px;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+}
+.icons {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 100px;
+  vertical-align: middle;
+}
+.footerBrand {
+  width: 100%;
+  height: 50px;
+   line-height: 50px;
+  text-align: center;
+  float: bottom;
+}
+.brand {
+  color: white;
+}
+.copyright {
+  color: white;
+  opacity: 70%;
+}
+.navBar{
+  display: flex;
+}
+.navItems{
+  display: flex;
+  list-style-type: none;
+}
+.navItem{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navButton{
+  text-decoration: none;
+}
+#navB1{
+  color:white;
+}
+#navB2{
+  color:white;
+}
+#navB3{
+  color:white;
+}
+#navB4{
+  color:white;
+}
+#navB5{
+  color:white;
+}
+.background_image {
+  position: fixed;
+  transform: translateY(-100px);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+
+}
+.perso{
+  width: 25%;
+  min-width: 200px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255, .3);
+}
+.perso>img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 50px;
+  text-shadow: black 2px 0 30px;
+}
+li{
+  font-size: 25px;
+}
+p{
+  margin: 10px;
+  color: white;
+}
+h2{
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}

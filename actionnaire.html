@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name = "viewport" content="width = device-width, initial_scale = 1" />
+    <title>Actionnaire</title>
+    <link rel="stylesheet" type="text/css" href="actionnaire.css">
+</head>
+    <body>
+    <nav class="navBar">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="Images/Logos/Logo-3.png"
+              alt="Logo de GREEN PARIS"
+          /></a>
+
+      <div class="navButton">
+        <ul class="navItems">
+          <li class="navItem">
+            <a class="navButton" id="navB1" href="hotel.html">Hôtel</a>
+          </li>
+          <li class="navItem">
+            <a class="navButton" id="navB2" href="Restaurants.html">Restaurant</a>
+          </li>
+          <li class="navItem">
+            <a class="navButton" id="navB3" href="entreprise.html">Entreprise</a>
+          </li>
+          <li class="navItem">
+            <a class="navButton" id="navB4" href="Demarche.html">Notre Démarche</a>
+          </li>
+          <li class="navItem">
+            <a class="navButton" id="navB5" href="actionnaire.html">Actionnaire</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<main>
+    <h1>ACTIONNAIRE</h1>
+    <form id="form" class="bloc" onsubmit="return false">
+        <div class="ligne1">
+            <div>
+                <input class="guessPrenom" placeholder="Prenom" type="text" id="guessPrenom" name="user_prenom" required>
+            </div>
+            <div>
+                <input class="guessNom" placeholder="Nom" type="text" id="name" name="user_name" required>
+            </div>
+            <div>
+                <input class="RIB" placeholder="RIB" type="text" id="mail" name="user_mail" required>
+            </div>
+            <div>
+                <input class="montant" placeholder="Les soussous" type="number" id="montant" name="les soussous" required>
+            </div>
+        </div>
+        <div>
+                <button id="submit" type="submit"> Ajouter </button>
+                <button id="reset" type="reset">Tout supprimer</button>
+        </div>
+    </form>
+    <table>
+        <thead>
+        <tr>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>E-mail</th>
+            <th>Les SOUSSOUS!!</th>
+        </tr>
+        </thead>
+        <tbody class="body">
+
+        </tbody>
+    </table>
+</main>
+
+
+<div class="footer">
+      <div class="icons">
+        <a href="https://www.facebook.com/GreenParis-103299468094697/"
+            ><img
+              class="image_icon grow-shadow"
+              src="Images/facebook.png"
+              alt="icones facebook"
+          /></a>
+        <a href="www.linkedin.com/in/green-paris-1569691aa"
+            ><img
+              class="image_icon grow-shadow"
+              src="Images/linkedin.jpg"
+              alt="icones linkedin"
+          /></a>
+        <a href="https://www.instagram.com/green__paris_/?hl=fr"
+            ><img
+              class="image_icon grow-shadow"
+              src="Images/insta.png"
+              alt="icones instagram"
+          /></a>
+      </div>
+    </div>
+    <div class="pres">
+    <a class="preslink" href="presentation.html">Qui-sommes nous ?</a>
+    </div>
+        <div class="footerBrand">
+         <span class="copyright">@ 2020 Copyright </span><span class="brand">GREENPARIS</span>
+
+        </div>
+        <script src="actioScript.js"></script>
+    </body>
+</html>
+

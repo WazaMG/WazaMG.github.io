@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.background_image {
+	position: fixed;
+	transform: translateY(-540px);
+	min-width: 100%;
+	min-height: auto;
+	z-index: -10;
+}
+.content {
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content h2 {
+	text-align: center;
+	font-style: italic;
+}
+.main_text {
+
+	width: 800px;
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+	background-color: #54775e;
+	text-align: justify;
+}
+
+.article
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #eff5f7;
+	padding: 20px;
+	border-radius: 20px;
+}
+.image_icon{
+  border-collapse: separate;
+  border-radius: 20%;
+  width: 80px;
+  margin-top: 10px;
+}
+.grow-shadow {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.grow-shadow:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.247);
+}
+nav {
+  font-size: 1.5vw;
+  z-index: 2;
+}
+.navbar {
+  height: 70px;
+}
+
+.logo {
+  height: 4vw;
+  width: 4vw;
+  margin-left: 20px;
+  margin-top: 4px;
+  height: 60px;
+  width: 60px;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #54775e;
+}
+.icons {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 100px;
+  vertical-align: middle;
+}
+.footerBrand {
+  width: 100%;
+  height: 50px;
+  background-color: #295837;
+   line-height: 50px;
+  text-align: center;
+}
+.brand {
+  color: white;
+}
+.copyright {
+  color: white;
+  opacity: 70%;
+}
+.navBar{
+  display: flex;
+}
+.navItems{
+  display: flex;
+  list-style-type: none;
+}
+.navItem{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navButton{
+  text-decoration: none;
+}
+#navB1{
+  color:#353535;
+}
+#navB2{
+  color:#6D6D6D;
+}
+#navB3{
+  color:#7F7F7F;
+}
+#navB4{
+  color:#989898;
+}
+#navB5{
+  color:#989898;
+}
+.pres{
+  width: 100%;
+  height: 50px;
+  background-color: #287F41;
+   line-height: 50px;
+  text-align: center;
+}
+.preslink{
+  color: white;
+}
+h1{
+	text-align: center;
+}
+li{
+  font-size: 25px;
+}
+
